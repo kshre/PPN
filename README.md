@@ -11,7 +11,7 @@ seaborn>=0.8.1\
 pandas>=0.20.3
 
 ## Usage
-### Training:
+### Training
 There are three steps:
 1. go into train_package/1 file, and modify the net_config.json file for parameter setting (one can also construct train_package/2)
 2. vim the main.py file, and set a specific GPU device
