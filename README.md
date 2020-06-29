@@ -19,7 +19,8 @@ there are three steps:
 (logging information: view train_package/1/programlog)
 
 ### Backtest
-python main.py --mode=backtest --algo=1 (--algo could be either the name of traditional method or the index of training folder)
+python main.py --mode=backtest --algo=1 \
+(--algo could be either the name of traditional method or the index of training folder)
 
 ### Save and Restore of the Model
 The trained weights of the network are saved at train_package/1 named as netfile (including 3 files)
@@ -37,9 +38,10 @@ The attached dataset is S&P500.\
 The data description can be found in the paper or Kaggle (https://www.kaggle.com/camnugent/sandp500).
 
 ## Acknowledgement
-This project is constructed based on the open source project:
+This project is constructed based on the open source project:\
 * [PGPortfolio toolbox(https://github.com/ZhengyaoJiang/PGPortfolio)]\
-It would not have been finished without using the codes from the following open source projects:
+
+It would not have been finished without using the codes from the following open source projects:\
 * [Online Portfolio Selection toolbox](https://github.com/OLPS/OLPS)
  
 ## Risk Disclaimer
