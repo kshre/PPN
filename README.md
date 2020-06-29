@@ -12,7 +12,7 @@ pandas>=0.20.3
 
 ## Usage
 ### Training:
-there are three steps:
+There are three steps:
 1. go into train_package/1 file, and modify the net_config.json file for parameter setting (one can also construct train_package/2)
 2. vim the main.py file, and set a specific GPU device
 3. python main.py --mode=train --process=1\
