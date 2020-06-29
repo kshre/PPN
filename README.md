@@ -45,7 +45,7 @@ It would not have been finished without using the codes from the following open 
 * [Online Portfolio Selection toolbox](https://github.com/OLPS/OLPS)
  
 ## Risk Disclaimer
-There is always risk of loss in trading. **All trading strategies are used at your own risk**
+There is always risk of loss in trading. **All trading strategies are used at your own risk**.
 
 ## Citation:
 If you use this code, please cite:
