@@ -60,7 +60,7 @@ class HistoryManager:
         start = int(start - (start%period)) # Subtract the remainder
         end = int(end - (end%period))  # Subtract the remainder
         
-        """
+        
         # read data
         df = pd.read_csv('./database/all_stocks_5yr.csv')
         #df.describe()
@@ -85,7 +85,7 @@ class HistoryManager:
         features=['open','high','low','close']
         #time_index = pd.to_datetime(list(range(start, end+1, period)),unit='s')  
         panel = pd.Panel(items=features, major_axis=coins, minor_axis=time_index, dtype=np.float32)
-        """
+        
         
         # obtain the global data
         if os.path.exists('./database/data_new.pkl'):
