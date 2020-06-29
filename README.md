@@ -38,11 +38,11 @@ The attached dataset is S&P500.\
 The data description can be found in the paper or Kaggle (https://www.kaggle.com/camnugent/sandp500).
 
 ## Acknowledgement
-This project is constructed based on the open source project:
-* [PGPortfolio toolbox(https://github.com/ZhengyaoJiang/PGPortfolio)]
+This project is constructed based on the open source project:\
+[PGPortfolio toolbox(https://github.com/ZhengyaoJiang/PGPortfolio)]
 
-It would not have been finished without using the codes from the following open source projects:
-* [Online Portfolio Selection toolbox](https://github.com/OLPS/OLPS)
+It would not have been finished without using the codes from the following open source projects:\
+[Online Portfolio Selection toolbox](https://github.com/OLPS/OLPS)
  
 ## Risk Disclaimer
 There is always risk of loss in trading. **All trading strategies are used at your own risk**.
