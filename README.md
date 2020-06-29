@@ -4,6 +4,7 @@ We provide the original implementation for "Cost-Sensitive Portfolio Selection v
 ## Differences from the article version
 Note that this library is a part of our main project, and it is several versions ahead of the article. The main difference is the decision making module, where we propose a new leverage operation that contributes a lot.
 
+
 ## Dependencies
 Python 2.7\
 Tensorflow>=1.4.0\
@@ -13,32 +14,35 @@ cvxopt>=1.1.9\
 seaborn>=0.8.1\
 pandas>=0.20.3
 
+
 ## Usage
-### Training\
+### Training
 There are three steps:
 1. go into train_package/1 file, and modify the net_config.json file for parameter setting (one can also construct train_package/2)
 2. vim the main.py file, and set a specific GPU device
 3. python main.py --mode=train --process=1\
 (logging information: view train_package/1/programlog)
 
-### Backtest\
+### Backtest
 python main.py --mode=backtest --algo=1 \
 (--algo could be either the name of traditional method or the index of training folder)
 
-### Save and Restore of the Model\
+### Save and Restore of the Model
 The trained weights of the network are saved at train_package/1 named as netfile (including 3 files)
 
-### Plotting\
+### Plotting
 python main.py --mode=plot --algos=crp,olmar,1 --labels=crp,olmar,ours\
 (--algos could be the name of the tdagent algorithms or the index of nnagent)\
 (--labels is the name of related algorithm that will be shown in the legend)
 
-### Present backtest results in a table\
+### Present backtest results in a table
 python main.py --mode=table --algos=1,olmar,ons --labels=nntrader,olmar,ons
+
 
 ## Dataset
 The attached dataset is S&P500.\
 The data description can be found in the paper or Kaggle (https://www.kaggle.com/camnugent/sandp500).
+
 
 ## Acknowledgement
 This project is constructed based on the open source project:
