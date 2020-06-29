@@ -1,0 +1,41 @@
+{
+    "agent_type": "NNAgent",
+    "input": {
+        "coin_number": 505,
+        "end_date": "2018/02/07",
+        "fake_ratio": 1,
+        "feature_number": 4,
+        "global_period": 86400,
+        "is_permed": false,
+        "market": "poloniex",
+        "norm_method": "absolute",
+        "online": true,
+        "portion_reversed": false,
+        "save_memory_mode": false,
+        "start_date": "2013/02/08",
+        "test_portion": 0.1,
+        "volume_average_days": 30,
+        "window_size": 31
+    },
+    "random_seed": 0,
+    "trading": {
+        "buffer_biased": 5e-05,
+        "learning_rate": 0.00028,
+        "rolling_training_steps": 85,
+        "trading_consumption": 0.0025
+    },
+    "training": {
+        "batch_size": 32,
+        "buffer_biased": 5e-05,
+        "decay_rate": 1.0,
+        "decay_steps": 50000,
+        "fast_train": true,
+        "learning_rate": 0.001,
+        "gamma":0.001,
+        "alpha":0.0001,
+        "loss_function": "loss_function6",
+        "snap_shot": false,
+        "steps": 10000,
+        "training_method": "Adam"
+    }
+}
