@@ -18,15 +18,19 @@ there are three steps:
 3. python main.py --mode=train --process=1
 (logging information: view train_package/1/programlog)
 
-### Backtest: python main.py --mode=backtest --algo=1 (--algo could be either the name of traditional method or the index of training folder)
+### Backtest
+python main.py --mode=backtest --algo=1 (--algo could be either the name of traditional method or the index of training folder)
 
-### Save and Restore of the Model: The trained weights of the network are saved at train_package/1 named as netfile (including 3 files)
+### Save and Restore of the Model
+The trained weights of the network are saved at train_package/1 named as netfile (including 3 files)
 
-### Plotting: python main.py --mode=plot --algos=crp,olmar,1 --labels=crp,olmar,ours
+### Plotting
+python main.py --mode=plot --algos=crp,olmar,1 --labels=crp,olmar,ours
 (--algos could be the name of the tdagent algorithms or the index of nnagent)
 (--labels is the name of related algorithm that will be shown in the legend)
 
-### Present backtest results in a table: python main.py --mode=table --algos=1,olmar,ons --labels=nntrader,olmar,ons
+### Present backtest results in a table
+python main.py --mode=table --algos=1,olmar,ons --labels=nntrader,olmar,ons
 
 ## Dataset
 The attached dataset is S&P500.
