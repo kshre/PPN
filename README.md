@@ -1,7 +1,7 @@
 # PPN
 We provide the original implementation for "Cost-Sensitive Portfolio Selection via Deep Reinforcement Learning (IEEE TKDE 2020)".
 The paper is available [[here](https://arxiv.org/pdf/2003.03051.pdf)].\
-Note that this library is a part of our main project, and it is several versions ahead of the article. The main difference is the decision making module, where we develop a new leverage operation that contributes a lot.
+Note that this library is several versions ahead of the article. The main difference is the decision making module, where we develop a new leverage operation that contributes a lot.
 
 
 ## Dependencies
